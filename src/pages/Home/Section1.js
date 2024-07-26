@@ -27,7 +27,7 @@ function Section1() {
               <h2 className="text-white">With Mint Mayo and Sauces</h2>
               <p className="text-black pt-2 pb-5">Introducing our new veggie burger: a flavorful combination of grilled vegetable patty with crisp lettuce, ripe tomatoes, melted cheese, and refreshing mint mayo, complemented by a variety of savory sauces.
               </p>
-              <Link to="/" className="btn order_now">Order Now</Link>
+              <Link to="/our_menu" className="btn order_now">Order Now</Link>
             </div>
           </Col>
         </Row>

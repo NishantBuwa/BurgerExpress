@@ -11,7 +11,7 @@ import Image7 from '../../assets/menu/burger-17.jpg'
 import Image8 from '../../assets/menu/burger-18.jpg'
 import Card from '../../components/Card'
 
-// Mock Data Cards
+
 const mockData = [
     {
         id: "0001",
@@ -77,30 +77,30 @@ const mockData = [
         rating: 2.0,
         price: 12.45,
     },
-    // Add more mock data objects as needed
 ];
 
-//Rating function
 
 const renderRatingIcon = (rating) => {
-    const stars = []
+    const stars = [];
     for (let i = 0; i < 5; i++) {
-        if (rating > 0.5) {
-            stars.push(<i key={i} className="bi bi-star-fill"></i>)
-            rating--
-        }
-        else if (rating > 0 && rating < 1) {
-            stars.push(<i key={"half"} className="bi bi-star-half"></i>)
-            rating--
-        }
-        else {
-            stars.push(<i key={`empty${1}`} className="bi bi-star"></i>)
+        if (rating >= 1) {
+            stars.push(<i key={`fill-${i}`} className="bi bi-star-fill"></i>);
+            rating -= 1;
+        } else if (rating > 0 && rating < 1) {
+            stars.push(<i key={`half-${i}`} className="bi bi-star-half"></i>);
+            rating = 0; 
+        } else {
+            stars.push(<i key={`empty-${i}`} className="bi bi-star"></i>);
         }
     }
-    return stars
+    return stars;
 }
 
-
+const redirect=()=>{
+    return(
+        <Link to="/our_menu"></Link>
+    )
+}
 function Section3() {
     return (
         <div>
@@ -123,6 +123,8 @@ function Section3() {
                                 paragraph={cardData.paragraph}
                                 price={cardData.price}
                                 renderRatingIcon={renderRatingIcon}
+                                hanhandleAddToCart={redirect}
+
                             ></Card>
                         ))}
                     </Row>

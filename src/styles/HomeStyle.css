@@ -319,7 +319,6 @@
 .carousel .carousel-item.active {
     display: block;
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-
 }
 
 /* Home Blog 7.0 */
@@ -328,7 +327,7 @@
     background: url("../assets/blog/reviews.jpg")no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     overflow: hidden;
 }
 
@@ -341,7 +340,7 @@
 }
 
 .carousel.slide .carousel-inner .carousel-caption p {
-    font-size: 1.75rem;
+    /* font-size: 1.75rem; */
     line-height: 1.45;
     font-weight: 400;
     padding: 0 12%;

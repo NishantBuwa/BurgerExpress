@@ -1,0 +1,359 @@
+.Menu-section1-container .heading{
+    flex-direction: column;
+    padding-top: 6rem;
+}
+
+.Menu-section1-container .heading h1{
+    font-family: queen-of-camelot;
+    word-spacing: 7px;
+    text-decoration: underline;
+}
+
+.Menu-section1-container .heading  h3{
+    font-family:  queen-of-camelot;
+    word-spacing: 5px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.My-container{
+    background: #200122;  
+    background: -webkit-linear-gradient(to left, #6f0000, #200122); 
+    background: linear-gradient(to left, #6f0000, #200122); 
+    margin-bottom: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+    /* display:block; */
+}
+
+.My-container .carousel-caption{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+}
+
+.carousel-caption .burger-img{
+    height:470px;
+    width:450px;
+    margin-bottom: -20px;
+    margin-left: 50px;
+    padding-top: 30px;
+}
+
+.carousel-content{
+    margin-top: 30px;
+    max-height: 100%;
+}
+
+.Menu-section1-container .carousel-content h3{
+    font-family: queen-of-camelot;
+    word-spacing: 10px;
+    font-size: 2.5rem;
+    text-decoration:underline;
+}
+.carousel-caption .carousel-content .content-para{
+    font-family: sui-generics;
+    font-size: 20px;
+    text-align: left;
+    margin-top:20px;
+}
+.carousel-caption .content-3{
+    margin-left: -24px;
+}
+.carousel-text{
+    height:450px;
+    width:450px;
+    flex-direction: column;
+    width:90%;
+    gap:20px;
+    margin:0;
+    padding: 0;
+    max-height:90%;
+}
+
+
+
+
+
+
+
+.neon-text {
+   
+    font-family:sui-generics; /* Ensure you have this font loaded or use another cursive font */
+    font-size: 2rem;
+    color: #ff00ff; /* Neon pink */
+    text-shadow: 
+        0 0 5px #ff00ff,
+        0 0 10px #ff00ff,
+        0 0 20px #ff00ff,
+        0 0 40px #ff00ff,
+        0 0 80px #ff00ff;
+    margin: 0;
+    padding: 0;
+}
+
+.neon-text:nth-child(2) {
+    color: #ffff00; /* Neon yellow */
+    text-shadow: 
+        0 0 5px #ffff00,
+        0 0 10px #ffff00,
+        0 0 20px #ffff00,
+        0 0 40px #ffff00,
+        0 0 80px #ffff00;
+}
+
+.Menu-section1-container .card-img-top {
+    transition: all 500ms ease-in-out;
+}
+
+.Menu-section1-container h2 {
+    font-size: 3.5rem;
+    color: var(--light-red);
+}
+
+.Menu-section1-container .para {
+    color: var(--grey);
+    padding: 10px 100px;
+    font-size: 19px;
+}
+
+.Menu-section1-container .item_rating i {
+    color: var(--yellow);
+    padding-right: 5px;
+}
+
+.Menu-section1-container .wishlist i {
+    color: var(--grey);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Menu-section1-container .wishlist i:hover {
+    color: var(--light-red);
+}
+
+.Menu-section1-container .card-title {
+    font-family: var(--oswald-font-family);
+    font-weight: 500;
+    margin: 5px 0 10px 0;
+}
+
+.Menu-section1-container .card-text {
+    color: var(--grey);
+    font-size: 15px;
+}
+
+.Menu-section1-container .menu_price {
+    background-color: var(--bg-coffee);
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 4px;
+}
+
+.Menu-section1-container .menu_price h5 {
+    color: var(--yellow);
+    font-size: 1rem;
+}
+
+.Menu-section1-container .add_to_cart a {
+    background: var(--yellow);
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 700;
+    padding: 8px 14px;
+    border-radius: 4px;
+    opacity: 0;
+    transform: translateX(100px);
+    /* transform:translateY(100px); */
+    transition: all 500ms ease-in-out
+}
+
+.Menu-section1-container .card:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+.Menu-section1-container .card:hover .add_to_cart a {
+    transform: translateX(0px);
+    /* transform:translateY(0px); */
+    opacity: 1;
+}
+
+@media (width<990px) {
+    .Menu-section1-container .heading{
+        padding-top: 8rem;
+    }
+
+}
+
+
+@media(1300px<=width<1400px){
+    .my-carousel{
+        height:420px;
+    }
+}
+
+@media (1200px<=width<1300px){
+    .my-carousel{
+        height:400px;
+    }
+    .carousel-caption{
+        margin-top: -24px;
+    }
+    .Menu-section1-container .carousel-content h3{
+        font-size: 2rem;
+    }
+    .carousel-caption .carousel-content .content-para{
+        font-size: 1.5rem;
+    }
+}
+
+@media (990px<=width<1200px){
+    .my-carousel{
+        height:380px;
+    }
+    .burger-img{
+        margin-top:-5px;
+    }
+    .carousel-content{
+        margin-top: -20px;
+    }
+    .Menu-section1-container .carousel-content h3{
+        font-size: 1.7rem;
+    }
+    .carousel-caption .carousel-content .content-para{
+        font-size: 1.4rem;
+    }
+}
+
+@media (767px<width<990px){
+    .my-carousel{
+        height:330px;
+    }
+    .carousel-content{
+        margin-top: -80px;
+    }
+    .Menu-section1-container .carousel-content h3{
+        font-size: 1.7rem;
+    }
+    .carousel-caption .carousel-content .content-para{
+        font-size: 1.2rem;
+    }
+    .carousel-text{
+        margin-top: -70px;
+    }
+}
+
+@media (575px<width<=767px){
+    .my-carousel{
+        height:200px;
+    }
+    .My-container .carousel-caption{
+        margin-top: -45px;
+        margin-left: -50px;
+        display: flex;
+        justify-content:space-around;
+        align-items:center;
+        gap:20px;
+        /* border:2px solid black; */
+        width:100%;
+    }
+    .carousel-caption .burger-img img{
+        height:200px;
+        width:200px;
+    }
+    .Menu-section1-container .carousel-content{
+        margin-top: -100px;
+        margin-left: 20px;
+    }
+    .Menu-section1-container .carousel-content h3{
+        font-size: 1.2rem;
+        width:250px;
+    }
+    .carousel-caption .carousel-content .content-para{
+        font-size: .8rem;
+    }
+    .carousel-caption .img-3{
+        margin-top: -30px;
+    }
+    .carousel-text{
+        margin-top: -70px;
+        /* border:2px solid black; */
+        margin-left: 100px;    
+    
+    }
+    .carousel-text .neon-text{
+        font-size: 1.4rem;
+     }
+}
+
+@media(505px<width<=575px){
+    .My-container{
+        width:90% !important;
+        height:10rem;
+    }
+    .my-carousel{
+        height:10rem;
+    }
+    .carousel-caption{
+        margin-top:-110px;
+        margin-left: -20px;
+    }
+    .carousel-caption .burger-img{
+        margin-left: -20px;
+        margin-top: 80px;
+        /* border:2px solid yellow; */
+    }
+    .burger-img img{
+        height:100px;
+        padding-left: 20px;
+    }
+    .Menu-section1-container .carousel-content h3{
+        font-size: .6rem;
+        width:250px;
+        margin-bottom: -10px;
+    }
+    .carousel-caption .carousel-content .content-para{
+        font-size: .5rem;
+    }
+    .Menu-section1-container .carousel-content{
+        margin-top: -130px;
+    }
+    .carousel-indicators button{
+        width:1rem !important;
+        margin-bottom: -10px;
+    }
+    .Menu-section1-container .heading  h3{
+        width:70%;
+        text-align: center;
+    }
+    .carousel-caption .img-3{
+        margin-top: 40px;
+    }
+    .carousel-caption{
+        /* border:2px solid yellow; */
+        width:90%;
+        margin-left: 20px;
+    }
+    .carousel-text{
+        margin-top: -60px;
+    
+    }
+    .carousel-text .neon-text{
+        font-size: 1rem;
+    }
+    .third-carousel{
+        margin-top: -100px;
+    }
+}
+
+@media (Width<=505px) {
+    .My-container{
+        display: none;
+    }
+    .Menu-section1-container .heading  h3{
+        width:70%;
+        text-align: center;
+    }
+}

@@ -116,3 +116,11 @@ a{
   background: transparent;
   border-color:var(--light-red);
 }
+.alert-container {
+  position: fixed;
+  top: 6rem;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  margin: 0;
+}

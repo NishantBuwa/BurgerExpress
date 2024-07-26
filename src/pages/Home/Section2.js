@@ -35,7 +35,7 @@ function Section2() {
                             <h2>The burger tastes better when you eat it with your family</h2>
                             <p>"The Burger Tastes Better When You Eat It With Your Family" embodies the belief that sharing food with loved ones enhances the dining experience. This React-powered application encourages families to explore, create, and enjoy delicious burger together.
                             </p>
-                            <Link to="/" className="btn order_now btn_red">
+                            <Link to="/our_menu" className="btn order_now btn_red">
                                 Explore Full Menu</Link>
                         </Col>
                     </Row>

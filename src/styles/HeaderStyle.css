@@ -46,7 +46,8 @@ header .navbar.sticky{
 header .logo img{
     width:auto;
     max-width: inherit;
-    max-height:80px
+    max-height:80px;
+    /* margin-left: -10rem; */
 }
 
 header .nav-link{
@@ -64,16 +65,38 @@ header .nav-link{
     -ms-transition: all 15ms ease-in-out;
     transition: all 15ms ease-in-out;
 }
-
+header .nav-link-white{
+    color:white;
+    display:inline-flex;
+    justify-content: center;
+    padding:0 1rem !important;
+    font-size: 1.125rem;
+    font-weight:500;
+    font-family: var(--oswald-font);
+    text-transform: uppercase;
+    -webkit-transition: all 15ms ease-in-out;
+    -moz-transition: all 15ms ease-in-out;
+    -o-transition: all 15ms ease-in-out;
+    -ms-transition: all 15ms ease-in-out;
+    transition: all 15ms ease-in-out;
+}
 header .sticky .nav-link{
     color:var(--light-black);
 }
+
 header .nav-link:hover{
-    color:var(--yellow)
+    color:var(--yellow);
 }
+header .nav-link:active{
+    color:var(--yellow) !important;
+}
+.active-link {
+    color: var(--yellow);
+}
+
 header .cart{
     position:relative;
-    top:-.2375rem;
+    top:-0.1375rem;
 }
 header .roundpoint{
     width:16px;
