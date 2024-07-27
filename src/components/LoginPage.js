@@ -118,14 +118,14 @@ import '../styles/L_S_Styles.css';
                                 <input type="password" placeholder="Password (eg -> 1234)" onChange={(e)=>setPassword(e.target.value)} required />
                             </div>
                             <div className="pass-link">
-                                <a>Forgot password ?</a>
+                                <a href="/">Forgot password ?</a>
                             </div>
                             <div className="field btn">
                                 <div className="btn-layer"></div>
                                 <input type="submit" value="Login" />
                             </div>
                             <div className="signup-link">Not a member? 
-                                <a style={{marginLeft:'4px',cursor:'pointer'}}>Signup now</a>
+                                <a href="/" style={{marginLeft:'4px',cursor:'pointer'}}>Signup now</a>
                             </div>
                         </form>
                         <form className="signup" onSubmit={handleSignupSubmit}>
