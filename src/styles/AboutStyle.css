@@ -61,7 +61,8 @@
 }
 
 .Container{
-    background: url('C:\Users\nisha\Desktop\Nishant\react\CodeEvolution\food-delivery-app\src\assets\AboutPage-images\cityscape-background.jpg') no-repeat center center;
+    /* background: url('C:\Users\nisha\Desktop\Nishant\react\CodeEvolution\food-delivery-app\src\assets\AboutPage-images\cityscape-background.jpg') no-repeat center center; */
+    background: url('../assets/AboutPage-images/cityscape-background.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
