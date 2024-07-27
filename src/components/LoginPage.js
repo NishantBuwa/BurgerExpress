@@ -118,7 +118,7 @@ import '../styles/L_S_Styles.css';
                                 <input type="password" placeholder="Password (eg -> 1234)" onChange={(e)=>setPassword(e.target.value)} required />
                             </div>
                             <div className="pass-link">
-                                <a href="#">Forgot password?</a>
+                                <a>Forgot password ?</a>
                             </div>
                             <div className="field btn">
                                 <div className="btn-layer"></div>
