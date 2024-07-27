@@ -84,7 +84,7 @@
 }
 
 .section3-container {
-    background: url('C:\Users\nisha\Desktop\Nishant\react\CodeEvolution\food-delivery-app\src\assets\AboutPage-images\Story-bg.jpg');
+    background: url('../assets/AboutPage-images/Story-bg.jpg');
     background-size: cover;
     margin-top: -16px;
 }
