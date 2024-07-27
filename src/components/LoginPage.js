@@ -125,7 +125,7 @@ import '../styles/L_S_Styles.css';
                                 <input type="submit" value="Login" />
                             </div>
                             <div className="signup-link">Not a member? 
-                                <a href="" style={{marginLeft:'4px'}}>Signup now</a>
+                                <a style={{marginLeft:'4px',cursor:'pointer'}}>Signup now</a>
                             </div>
                         </form>
                         <form className="signup" onSubmit={handleSignupSubmit}>
