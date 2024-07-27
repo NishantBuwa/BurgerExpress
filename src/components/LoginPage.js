@@ -38,10 +38,10 @@ import '../styles/L_S_Styles.css';
 
     const handleLoginSubmit=async(e)=>{
         e.preventDefault()
-        // console.log(username,password)
-        // if(username==='user' && password==='1234'){
-        //     window.location.href = '/';
-        // }
+        console.log(username,password)
+        if(username==='user' && password==='1234'){
+            window.location.href = '/';
+        }
 
         try {
             // const response = await fetch('http://localhost/Burgerexpress/Login.php'
