@@ -1,10 +1,10 @@
 import React from 'react'
-import Login_page from '../../components/Login_page'
+import LoginPage from '../../components/LoginPage'
 
 function Section1() {
   return (
     <div>
-      <Login_page></Login_page>
+      <LoginPage></LoginPage>
     </div>
   )
 }
