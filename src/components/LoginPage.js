@@ -38,14 +38,14 @@ import '../styles/L_S_Styles.css';
 
     const handleLoginSubmit=async(e)=>{
         e.preventDefault()
-        console.log(username,password)
+        // console.log(username,password)
         if(username==='user' && password==='1234'){
             window.location.href = '/';
         }
 
         try {
             // const response = await fetch('http://localhost/Burgerexpress/Login.php'
-            const response = await fetch('http://nishant.infinityfreeapp.com/Burgerexpress/Login.php', {
+            const response = await fetch('https://nishant.infinityfreeapp.com/Burgerexpress/Login.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -76,7 +76,7 @@ import '../styles/L_S_Styles.css';
         else{
             try {
                 // const response = await fetch('http://localhost/Burgerexpress/Signup.php'
-                const response = await fetch('http://nishant.infinityfreeapp.com/Burgerexpress/Signup.php', {
+                const response = await fetch('https://nishant.infinityfreeapp.com/Burgerexpress/Signup.php', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
