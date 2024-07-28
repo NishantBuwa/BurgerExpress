@@ -76,7 +76,7 @@ import '../styles/L_S_Styles.css';
         else{
             try {
                 // const response = await fetch('http://localhost/Burgerexpress/Signup.php'
-                const response = await fetch('https://nishant.infinityfreeapp.com/Burgerexpress/Signup.php', {
+                const response = await fetch('Burgerexpress/Signup.php', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
